@@ -111,19 +111,21 @@ img.pos {
     max-width: 720px;
   }
 header .header .contacts button:hover {
-    background: -webkit-gradient(linear, left top, left bottom, from(#fe4300), to(#fe4300));
-    background: -webkit-linear-gradient(top, #fe4300 0, #fe4300 100%);
-    background: -o-linear-gradient(top, #fe4300 0, #fe4300 100%);
-    background: linear-gradient(180deg, #fe4300 0, #fe4300 100%)
+
+    background: #16a5d4;
 }
 header nav {
-    background: #481401;
+    background: #bd0303;
     padding: 6px 0;
     width: 100%
 }
 header nav a {
     color: #fff
 }
+section.section--primary--alt {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
 header nav a:hover {
     text-decoration: none;
     color: #fff
@@ -370,7 +372,7 @@ main .characteristics .grid .item .desc span {
     line-height: 1
 }
 main .kinds {
-    background: #f3f2f2;
+    background: #16a5d4;
     padding-top: 25px;
     padding-bottom: 100px
 }
@@ -441,7 +443,7 @@ main .kinds .grid .item .wrap button {
     background: -webkit-gradient(linear, left bottom, left top, from(#f6d30c), to(#ffe937));
     background: -webkit-linear-gradient(bottom, #f6d30c 0, #ffe937 100%);
     background: -o-linear-gradient(bottom, #f6d30c 0, #ffe937 100%);
-    background: linear-gradient(360deg, #fe4300 0, #fe4300 100%);
+    background: #16a5d4;
     -webkit-border-radius: 6px;
     border-radius: 6px;
     border: none;
@@ -458,7 +460,7 @@ main .kinds .grid .item .wrap button:hover {
     background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000));
     background: -webkit-linear-gradient(top, #000000 0, #000000 100%);
     background: -o-linear-gradient(top, #000000 0, #000000 100%);
-    background: linear-gradient(360deg, #020000 0, #000000 100%);
+    background: #bd0303;
 }
 main .kinds .grid .item .wrap div span {
     display: block;
